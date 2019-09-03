@@ -74,12 +74,16 @@ header {
 }
 
 nav { 
+	float:right;
+	width:40%;
 	background-color: #E8C66A;
 	border: 1px black solid;
 	padding: 20px;
 }
 
 aside { 
+	float:left;
+	width:50%;
 	background-color: #FFC675;
 	border: 1px black solid;
 	padding: 20px;
@@ -101,4 +105,8 @@ div/section {
 	background-color: #FFE2B8;
 	border: 1px black solid;
 	padding: 20px;
+}
+
+main {
+	clear:both;
 }

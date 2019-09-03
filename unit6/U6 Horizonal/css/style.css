@@ -1,0 +1,28 @@
+nav {
+	background-color: #aaaaaa;
+	font-family: Arial, sans-serif;
+}
+
+a {
+	background-color: #ff7900;
+	color: white;
+	padding: 20px;
+	text-decoration: none;
+	display: block;
+    float: left;
+
+
+}
+
+.clearfix:after {
+	 visibility: hidden;
+	 display: block;
+	 content: " ";
+	 clear: both;
+	 height: 0;
+	 font-size: 0;
+}
+
+a:hover {
+	background-color: #cccccc;
+}
