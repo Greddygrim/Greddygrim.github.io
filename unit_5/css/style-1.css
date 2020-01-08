@@ -1,0 +1,106 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	font-family: 'Lobster', cursive;
+	color: red;
+}
+
+img {
+	width: 100%;
+} 
+
+.food-item {
+	width: 2in;
+	float: 
+	}
+.funer {
+	width: 2in;
+}
+
+header {
+
+	background-color: #FFED74;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+section {
+	background-color: #FFE2B8;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+aside {
+	box-sizing: border-box;
+	border: 1px black solid;
+	padding: 100px;
+	background-color: #FFC675;
+}
+
+article {
+	box-sizing: border-box;
+	border: 1px black solid;
+	padding: 20px;
+	background-color: #E89C6C;
+}
+
+footer {
+	box-sizing: border-box;
+	border: 1px solid black;
+	padding: 20px;
+	background-color: #FF957E;
+}
+
+div {
+	background: #FFE2B8;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+header a {
+	color: red;
+}
+
+.nav-primary {
+	width: 100%;
+	height: 60px;
+	line-height: 60px;
+	background-color: #E8C66A;
+	border: 1px solid black;
+}
+
+.nav-primary h1 {
+	float: left;
+}
+
+.nav-primary h1 a {
+	text-decoration: none;
+	color: white;
+	margin-left: 25px;
+	font-family: 'Lobster', cursive;
+}
+
+.nav-primary ul {
+	float: right;
+}
+
+.nav-primary ul li {
+	text-decoration: none;
+	list-style-type: none;
+	display: inline-block;
+}
+
+.nav-primary ul li a {
+	text-decoration: none;
+	color: white;
+	padding: 25px;
+	font-family: 'Lobster', cursive;
+}
+
+.nav-primary ul li :hover {
+	background: red;
+	transition: all ease-in-out 0.40s;
+}
