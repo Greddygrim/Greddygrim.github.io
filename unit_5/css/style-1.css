@@ -1,3 +1,7 @@
+:root {
+	--bkg-header:orange;
+}
+
 * {
 	margin: 0px;
 	padding: 0px;
@@ -13,16 +17,20 @@ img {
 } 
 
 .food-item {
-	width: 2in;
-	float: 
+	display: flex;
+	flex-direction: column;
 	}
-.funer {
-	width: 2in;
+
+.food-item figure {
+	margin: 0 0.5em;
+}
+
+.food-item figcaption {
+	text-align: center;
 }
 
 header {
-
-	background-color: #FFED74;
+	background-color: var(--bkg-header);
 	border: 1px black solid;
 	padding: 20px;
 }
@@ -31,6 +39,7 @@ section {
 	background-color: #FFE2B8;
 	border: 1px black solid;
 	padding: 20px;
+	display: flex;
 }
 
 aside {
@@ -38,6 +47,8 @@ aside {
 	border: 1px black solid;
 	padding: 100px;
 	background-color: #FFC675;
+	background-color: var(--bkg-header);
+	width: 50%;
 }
 
 article {
@@ -45,6 +56,25 @@ article {
 	border: 1px black solid;
 	padding: 20px;
 	background-color: #E89C6C;
+	width: 50%;
+}
+
+#two_column {
+    background-color: #FFB7CF;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+#left {
+    background-color: #E582A2;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+#right {
+    background-color: #E55B88;
+    border: 1px black solid;
+    padding: 20px;
 }
 
 footer {
